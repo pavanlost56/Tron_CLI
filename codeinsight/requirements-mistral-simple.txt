@@ -1,0 +1,19 @@
+# Core Dependencies
+click
+typer
+rich
+python-dotenv
+fastapi
+uvicorn[standard]
+pydantic
+
+# Mistral AI SDK
+mistralai
+
+# HTTP Client (for API calls)
+httpx
+aiohttp
+
+# Additional utilities
+numpy
+typing-extensions

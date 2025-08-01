@@ -1,0 +1,31 @@
+# CLI Libraries
+click==8.2.1
+typer==0.16.0
+rich==14.0.0
+
+# Core Libraries
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# LLM and AI Libraries (without ChromaDB for now)
+langchain==0.1.0
+ollama==0.1.6
+# chromadb==0.4.18  # Temporarily disabled - requires Visual C++ Build Tools
+# sentence-transformers==2.2.2  # Temporarily disabled due to dependencies
+
+# MCP and Web Browsing
+httpx==0.25.2
+beautifulsoup4==4.12.2
+lxml==4.9.3
+aiohttp==3.9.1
+
+# Utilities
+typing-extensions==4.8.0
+
+# Development Tools
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1

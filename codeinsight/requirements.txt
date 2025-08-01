@@ -1,0 +1,36 @@
+# CLI Libraries
+click==8.2.1
+typer==0.16.0
+rich==14.0.0
+
+# Core Libraries
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# LLM and AI Libraries
+langchain>=0.2.0  # Updated to resolve conflicts
+ollama>=0.3.0  # Updated for compatibility
+chromadb==0.5.0
+sentence-transformers==2.2.2
+mistralai>=1.2.5  # Latest version
+openai==1.58.1  # For OpenAI-compatible API
+langchain-mistralai>=0.1.13
+
+# MCP and Web Browsing
+httpx>=0.25.2,<0.28.0  # Updated to resolve conflicts
+beautifulsoup4==4.12.2
+lxml==4.9.3
+aiohttp==3.9.1
+
+# Utilities
+pathlib==1.0.1
+typing-extensions>=4.11.0  # Updated to resolve conflicts
+asyncio==3.4.3
+
+# Development Tools
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
